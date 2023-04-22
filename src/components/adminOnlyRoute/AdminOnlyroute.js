@@ -3,7 +3,7 @@ import {useSelector} from 'react-redux';
 import { Link } from 'react-router-dom';
 import {selectEmail} from '../../redux/slice/authSlice';
 
-const AdminOnlyroute = ({children}) => {
+const AdminOnlyRoute = ({children}) => {
     const userEmail = useSelector(selectEmail);
 
     // userEmail will be added to .env file later
@@ -35,4 +35,4 @@ export const AdminOnlyLink = ({children}) => {
     }
     return null;
 };
-export default AdminOnlyroute;
+export default AdminOnlyRoute;

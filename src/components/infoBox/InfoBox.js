@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../card/Card";
+import Card from "../cards/Card";
 import styles from "./InfoBox.module.scss";
 
 const InfoBox = ({ cardClass, title, count, icon }) => {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import useFetchDocument from "../../../customHooks/useFetchDocument";
-import styles from "./OrderDetails.module.scss";
-import spinnerImg from "../../../assets/spinner.jpg";
+import styles from './OrderDetails.modules.scss';
+import spinnerImg from "../../../assests/spinner.jpg";
 import { Link, useParams } from "react-router-dom";
 import ChangeOrderStatus from "../changeOrderStatus/ChangeOrderStatus";
 

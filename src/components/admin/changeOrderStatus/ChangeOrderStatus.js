@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { db } from "../../../firebase/config";
-import Card from "../../card/Card";
+import Card from "../../cards/Card";
 import Loader from "../../loader/Loader";
 import styles from "./ChangeOrderStatus.module.scss";
 
