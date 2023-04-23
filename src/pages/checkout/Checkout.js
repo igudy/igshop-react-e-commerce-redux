@@ -35,7 +35,7 @@ const Checkout = () => {
     dispatch(CALCULATE_TOTAL_QUANTITY());
   }, [dispatch, cartItems]);
 
-  const description = `eShop payment: email: ${customerEmail}, Amount: ${totalAmount}`;
+  const description = `igShop payment: email: ${customerEmail}, Amount: ${totalAmount}`;
 
   useEffect(() => {
     // http://localhost:4242/create-payment-intent
