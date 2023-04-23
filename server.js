@@ -6,7 +6,7 @@ const stripe = require("stripe")(process.env.STRIPE_PRIVATE_KEY);
 const app = express();
 app.use(cors());
 app.use(express.json());
-const path = require("path");
+// const path = require("path");
 
 app.get("/", (req, res) => {
   res.send("Welcome to eShop website.");

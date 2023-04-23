@@ -12,7 +12,7 @@ const rootReducer = combineReducers({
   filter: filterReducer,
   cart: cartReducer,
   checkout: checkoutReducer,
-  order: orderReducer,
+  orders: orderReducer,
 });
 
 const store = configureStore({

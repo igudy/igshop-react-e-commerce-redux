@@ -11,7 +11,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(form.current);
+    // console.log(form.current);
 
     emailjs
       .sendForm(
@@ -76,7 +76,7 @@ const Contact = () => {
                 </span>
                 <span>
                   <FaEnvelope />
-                  <p>Support@eshop.com</p>
+                  <p>goodnessigunma1@gmail.com</p>
                 </span>
                 <span>
                   <GoLocation />

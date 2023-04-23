@@ -8,7 +8,7 @@ import { getStorage } from 'firebase/storage';
 
 
 export const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FB_API_KEY,
+  apiKey: "AIzaSyDd3GNi4eIGRJfviquANPWHkGXf3pbozh0",
   authDomain: "igshop-a89b8.firebaseapp.com",
   projectId: "igshop-a89b8",
   storageBucket: "igshop-a89b8.appspot.com",
